@@ -1,4 +1,4 @@
-# Personal assistant
+Personal assistant
 
 The assistant could:
 * save contacts with names, phone numbers, emails and birthdays in the contact book
