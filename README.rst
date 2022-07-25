@@ -31,19 +31,14 @@ Worked under Python 3.10.5
 
 You just need to install this package with command:
 ```
-
 pip install -i https://test.pypi.org/simple/ personal-assistant==1.0.5
 ```
-
 or from folder with setup.py file:
 ```
-
 python setup.py install
 ```
-
 And then run it with one argument:
 ```
-
 assistant
 ```
 
