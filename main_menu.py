@@ -1,8 +1,11 @@
 from app.contact_book.contactbook_menu import contact_book_main
 from app.note_book.note_book_menu import note_book_main
 from app.file_work.filework import file_work_main
+from flask import Flask
 
+app = Flask(__name__)
 
+@app.route('/')
 def initial_main():
     """
     Initializing the bot and choosing the module by user input
@@ -24,4 +27,4 @@ def initial_main():
 
 
 if __name__ == '__main__':
-    initial_main()
+    app.run(host="0.0.0.0", port=5000)
